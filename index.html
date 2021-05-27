@@ -1,17 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html class="h-100" lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Analizador de palabras</title>
     <script src="js/analiza-palabras.js"></script>
     <script src="js/scripts.js" defer></script>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
-</body>
-
+  <body class="h-100">
+    <main class="container d-flex justify-content-center align-items-center">
+      <section class="row cuadroCentral h-25">
+        <form class="col align-items-center d-flex borderMain">
+          <div class="row p-3">
+            <div class="col-12 white">
+              <label>Palabras:</label>
+            </div>
+            <div class="col-12">
+              <input type="textarea" class="w-100 marginBot10 inputTextArea" />
+            </div>
+            <div class="col-12">
+              <input class="btn btn-primary" type="submit" value="Procesar" />
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
